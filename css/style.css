@@ -147,16 +147,18 @@ body {
 
 /* hero */
 .hero {
+  padding-top: 120px;
   padding-bottom: 157px;
+  
 }
 
 .hero-list {
   display: flex;
-  padding-top: 120px;
+
 }
 
 .hero-item {
-  padding-right: 17px;
+  margin-right: 17px;
   width: 545px;
 }
 
@@ -215,7 +217,7 @@ body {
 }
 
 .company-image {
-  padding-right: 82px;
+  margin-right: 82px;
 }
 
 .company-about-container {
@@ -237,7 +239,7 @@ body {
 }
 
 .first {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .company-info {
@@ -259,9 +261,7 @@ body {
 }
 
 .product-headline {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 17px;
+  margin-bottom: 17px;
   padding-top: 118px;
 
   font-weight: 500;
@@ -292,11 +292,11 @@ body {
 }
 
 .product-image {
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .product-title {
-  padding-bottom: 15px;
+  margin-bottom: 15px;
   font-weight: 500;
   font-size: 28px;
   line-height: 134%;
@@ -304,7 +304,7 @@ body {
 }
 
 .product-text {
-  padding-bottom: 15px;
+  margin-bottom: 15px;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
@@ -342,10 +342,11 @@ body {
 .footer-container {
   display: flex;
   padding-bottom: 24px;
+  padding-top: 28px; 
+
 }
 
-.footer-info{
-   padding-top: 28px;  
+.footer-info{ 
   display: flex;
   align-items: center;
 }
@@ -381,7 +382,7 @@ body {
 }
 
 .address-headline {
-  padding-top: 51px;
+  margin-top: 51px;
   margin-bottom: 15px;
 
   font-weight: 500;
@@ -409,7 +410,7 @@ color: #fff;
   font-weight: 500;
 }
 
-.test{
+.footer-red{
   text-align: center;
   background-color: #ee4248;
   padding-top: 22px;
