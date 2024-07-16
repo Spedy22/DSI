@@ -32,9 +32,7 @@ p {
 
 body {
   font-family: "Roboto", sans-serif;
-  
 }
-
 
 /* header */
 
@@ -43,7 +41,7 @@ body {
   align-items: center;
 }
 
-.header > a{
+.header > a {
   display: flex;
   align-items: center;
 }
@@ -53,7 +51,6 @@ body {
 .shadow {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
 }
-
 
 .logo-link {
   font-weight: 900;
@@ -73,9 +70,11 @@ body {
   color: #feba08;
 }
 
+.logo-dicoration {
+  margin-left: 4px;
+}
 
 .logo-text {
-  
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 500;
@@ -85,7 +84,6 @@ body {
 .top {
   color: rgba(0, 0, 0, 0.6);
   letter-spacing: 0.07em;
-  line-height: 143%;
 }
 
 .center {
@@ -117,7 +115,7 @@ body {
   color: rgba(31, 46, 53, 0.8);
 }
 
-.navigation-item:first-child{
+.navigation-item:first-child {
   margin-left: 108px;
 }
 
@@ -149,12 +147,10 @@ body {
 .hero {
   padding-top: 120px;
   padding-bottom: 157px;
-  
 }
 
 .hero-list {
   display: flex;
-
 }
 
 .hero-item {
@@ -328,34 +324,29 @@ body {
   cursor: pointer;
 }
 
-
-
-
 /* footer */
 
-.footer-logo{
+.footer-logo {
   display: flex;
   align-items: center;
 }
-
 
 .footer-container {
   display: flex;
+  align-items: flex-end;
   padding-bottom: 24px;
-  padding-top: 28px; 
-
+  padding-top: 28px;
 }
 
-.footer-info{ 
+.footer-info {
   display: flex;
   align-items: center;
 }
 
-.footer-info > a{
+.footer-info > a {
   display: flex;
   align-items: center;
 }
-
 
 .address a {
   display: block;
@@ -373,7 +364,6 @@ body {
 .address-text {
   margin-right: 47px;
 
-
   font-weight: 300;
   font-size: 18px;
   line-height: 149%;
@@ -382,7 +372,6 @@ body {
 }
 
 .address-headline {
-  margin-top: 51px;
   margin-bottom: 15px;
 
   font-weight: 500;
@@ -398,19 +387,17 @@ body {
   font-style: normal;
 }
 
-
-.footer-last{
+.footer-last {
   font-weight: 400;
-font-size: 18px;
-color: #fff;
-
+  font-size: 18px;
+  color: #fff;
 }
 
-.footer-last-container{
+.footer-last-container {
   font-weight: 500;
 }
 
-.footer-red{
+.footer-red {
   text-align: center;
   background-color: #ee4248;
   padding-top: 22px;
